@@ -2,7 +2,7 @@
 <html>
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
-    <meta http-equiv="refresh" content="5; URL=http://localhost/login15_01/">
+    <meta http-equiv="refresh" content="5; URL=index.html">
     <title>Nachrichten abschicken</title>
     <script src="mycode.js" type="text/javascript"></script>
 </head>
