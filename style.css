@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #2980b9, #6dd5fa);
+}
+/* Höhe und Bereite von container definiert */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background: linear-gradient(45deg, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box2 {
+	float: left;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 32px;
+    color: #333333;
+}
+/* Registrieren button  */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Wenn maus über Registrieren button ist daan wird unterline gezeigt */
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+input {
+    width: calc(100% - 30px);
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 35%;
+    left: 15px;
+    color: #6c757d;
+    /*animation */
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+/* Hier mache ich Placeholder kleiner wenn in Felder geklict wurde*/
+input:focus + label,
+input:valid + label {
+    top: 10px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+input[type="submit"] {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+	/*Button große */
+    padding: 15px 40px;
+    border: none;
+    /*Rund */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+	/*farbe andern wenn maus über button ist */
+input[type="submit"]:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+}
+
+.loginoutbox {
+    align-self: flex-start; /* Links ausgerichtet */
+    margin-top: auto; /* Damit der Abstand oben bleibt */
+}
+/* Höhe und Bereite von container definiert */
+.NachrichtContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.nachrichtbox {
+	
+    height: 80%; /* 80% der Höhe des Containers */
+	width: 60%;
+    min-height: 50px; /* Mindesthöhe für Inhalt */
+    overflow: auto; /* Bei Bedarf scrollen */
+}
+
+.loginoutbox {
+    background: linear-gradient(45deg, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-self: flex-end;
+    margin-top: auto;
+}
+textarea {
+    width: 100%; /* Set the width to 100% */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; /* Prevent resizing with the mouse */
+}
