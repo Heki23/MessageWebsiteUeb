@@ -16,7 +16,7 @@
 
 ### :camera: Screenshots
 
-<div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/1" alt='image' width='800'/></a> </div>
-<div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/2" alt='image' width='800'/></a> </div>
-<div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/3" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/Screenshots/1.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/Screenshots/2.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/Screenshots/3.png" alt='image' width='800'/></a> </div>
 
